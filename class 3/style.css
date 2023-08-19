@@ -1,0 +1,205 @@
+body{
+    background-color: rgb(236, 236, 235);
+    accent-color:red;
+
+font-family: Arial, Helvetica, sans-serif;
+font-weight: normal;
+
+font:normal 12px Arial, helvetica,sans-serif;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+
+}
+.box-1{
+    background-color: pink;
+    color: blue;
+    
+    /*border-top: 5px red;
+    border-width: 5px red;
+    border-bottom: 5px red;
+    border-left: 5px red;*/
+
+    border: 5px red;
+
+   /* padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;*/
+
+
+    padding: 20px;
+
+}
+.box-1 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    word-spacing: 1em;
+}
+.box-2{
+    margin-top: 10px;
+    border: 3px pink;
+    background-color: pink;
+    color: brown;
+    
+  
+
+    border: 5px red;
+
+
+    padding: 20px;
+
+}
+.box-2 h3{
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 800;
+    font-style: arial;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    word-spacing: 1em;
+}
+
+
+.categories{
+    margin-top: 10px;
+    border: 2px blue;
+    padding: 10px;
+    border-radius: 15px;
+}
+.categories h3{
+
+    font-size: large;
+    text-align: center;
+}
+
+
+
+    .categories ul{
+        padding: 5%;
+        list-style: square;
+        list-style: none;
+
+    }
+
+    a{
+        text-decoration: none;
+        color: papayawhip;
+
+    }
+a:hover{
+    color: red;
+
+
+}
+.categories li {
+    padding-bottom: 6px;
+    border: 30PX, RECTANGLE;
+    border-style:solid;
+    border-bottom: solid;
+  /*  list-style-image: url(https://cdn-icons-png.flaticon.com/128/8625/8625364.png);width: 5px,height 5px;}*/
+.my-form{
+    padding: 20px;
+
+}
+.my-form.my-form.form-group{
+    padding-bottom: 15px;
+
+}
+.my-form label{
+    display: block;
+}
+.my-form input[type="text"]
+.my-form input[type="email"]
+.my-form textarea
+{
+    padding: 8px;
+    width: 100%;
+
+}
+.my-form input[type="submit"]{
+    background-color: blanchedalmond;
+    color: blueviolet;
+    padding: 10px 15px;
+    border:none;
+}
+.button { 
+    background-color: blanchedalmond;
+    color: blueviolet;
+    padding: 10px 15px;
+    border:none;
+
+}
+button :hover{
+    color: red;
+    background-color: whitesmoke;
+
+}
+
+.article
+ {
+    float: right;
+    width: 33.33%;
+    border: 1px solid;
+    box-sizing: border-box;
+    padding:10px;
+    
+}
+#main-block{
+    float:left;
+    width:70%;
+    padding:15px;
+
+}
+#slidebar{
+    float: right;
+    width: 30%;
+    background-color: aqua;
+    color: antiquewhite;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+
+.clr{
+    clear:both;
+
+}
+.p-box{
+    width: 200px;
+    height: 200px;
+
+    border: 1px brown;
+
+
+}
+.p-box h1{
+    top: 50px;
+    left: 25px;
+
+    position: absolute;
+}
+
+.p-box h2 {
+    bottom:10px;
+    right:5px;
+    position: absolute;
+}
+.p-box h3 {
+    bottom:10px;
+    right:5px;
+    position: absolute;
+}
+.fix-me{
+    position: absolute;
+}
+
+
+
+
